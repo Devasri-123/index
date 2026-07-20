@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f2f2f2;
+        }
+
+        table{
+            width:700px;
+            margin:30px auto;
+            border-collapse:collapse;
+            background:white;
+        }
+
+        th{
+            background:#0066cc;
+            color:white;
+            padding:12px;
+            font-size:22px;
+        }
+
+        td{
+            border:1px solid #ccc;
+            padding:10px;
+        }
+
+        input, select, textarea{
+            width:95%;
+            padding:8px;
+        }
+
+        textarea{
+            resize:none;
+        }
+
+        .center{
+            text-align:center;
+        }
+
+        button{
+            padding:10px 20px;
+            margin:5px;
+            border:none;
+            color:white;
+            cursor:pointer;
+            border-radius:5px;
+        }
+
+        .submit{background:green;}
+        .reset{background:red;}
+    </style>
+</head>
+
+<body>
+
+<form>
+
+<table border="1">
+
+<tr>
+    <th colspan="2">STUDENT REGISTRATION FORM</th>
+</tr>
+
+<tr>
+    <td>Student ID</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>Student Name</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>Father Name</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>Mother Name</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>Email</td>
+    <td><input type="email"></td>
+</tr>
+
+<tr>
+    <td>Phone Number</td>
+    <td><input type="tel"></td>
+</tr>
+
+<tr>
+    <td>Password</td>
+    <td><input type="password"></td>
+</tr>
+
+<tr>
+    <td>Date of Birth</td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td>Gender</td>
+    <td>
+        <input type="radio" name="g"> Male
+        <input type="radio" name="g"> Female
+    </td>
+</tr>
+
+<tr>
+    <td>Department</td>
+    <td>
+        <select>
+            <option>CSE</option>
+            <option>IT</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>MECH</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Semester</td>
+    <td>
+        <select>
+            <option>I</option>
+            <option>II</option>
+            <option>III</option>
+            <option>IV</option>
+            <option>V</option>
+            <option>VI</option>
+            <option>VII</option>
+            <option>VIII</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Skills</td>
+    <td>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript
+    </td>
+</tr>
+
+<tr>
+    <td>Address</td>
+    <td>
+        <textarea rows="4"></textarea>
+    </td>
+</tr>
+
+<tr>
+    <td>Upload Photo</td>
+    <td><input type="file"></td>
+</tr>
+
+<tr>
+    <td>Favorite Color</td>
+    <td><input type="color"></td>
+</tr>
+
+<tr>
+    <td>Attendance</td>
+    <td><input type="range"></td>
+</tr>
+
+<tr>
+    <td colspan="2" class="center">
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
